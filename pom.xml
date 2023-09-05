@@ -11,6 +11,7 @@
 
     <modules>
         <module>spring_aop_example</module>
+        <module>spring_mvc_example</module>
     </modules>
 
     <properties>
