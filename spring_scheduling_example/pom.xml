@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring_aop_example</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>spring_scheduling_example</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -25,17 +24,12 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
     </dependencies>
 
@@ -84,5 +78,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

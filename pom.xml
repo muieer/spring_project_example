@@ -12,7 +12,8 @@
     <modules>
         <module>spring_aop_example</module>
         <module>spring_mvc_example</module>
-        <module>no_spring_boot_example</module>
+        <module>spring_framework_example</module>
+        <module>spring_scheduling_example</module>
     </modules>
 
     <properties>

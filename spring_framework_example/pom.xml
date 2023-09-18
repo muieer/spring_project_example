@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>no_spring_boot_example</artifactId>
+    <artifactId>spring_framework_example</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
