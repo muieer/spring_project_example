@@ -4,7 +4,7 @@ import org.muieer.beans.Config;
 import org.muieer.beans.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Main {
+public class SpringFrameworkExampleApp {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
