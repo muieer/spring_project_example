@@ -1,5 +1,6 @@
 package org.muieer.controller;
 
+import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.annotation.Resource;
 import org.muieer.service.SchedulingService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +13,7 @@ public class SwaggerController {
     SchedulingService example;
 
     @GetMapping("/job/add/")
-    public void addJob(String jobContent, String cornExpression) {
+    public void addJob(@Parameter(example = "input") String jobContent, String cornExpression) {
         example.addJob(jobContent, cornExpression);
     }
 
