@@ -22,7 +22,7 @@ public class SchedulingService {
     @Resource
     SchedulingConfiguration schedulingConfiguration;
 
-    public void addJob(@Parameter(example = "默认值") String jobContent, String cornExpression) {
+    public void addJob(String jobContent, String cornExpression) {
         taskScheduler.schedule(
                 () -> LOGGER.info("job content is {}, execution time is {}", jobContent, new Date()),
                 new CronTrigger(cornExpression)
