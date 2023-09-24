@@ -15,6 +15,7 @@ public class QuartzScheduler {
 
         JobDetail jobDetail = JobBuilder
                 .newJob(PrintJob.class)
+                .usingJobData("name", "muieer")
                 .withIdentity("printJob", "group1")
                 .build();
 
