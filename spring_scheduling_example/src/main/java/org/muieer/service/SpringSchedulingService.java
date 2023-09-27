@@ -1,6 +1,5 @@
 package org.muieer.service;
 
-import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.Resource;
 import org.muieer.config.SchedulingConfiguration;
@@ -13,9 +12,9 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 @Component
-public class SchedulingService {
+public class SpringSchedulingService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(SchedulingService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(SpringSchedulingService.class);
 
     @Resource
     TaskScheduler taskScheduler;
