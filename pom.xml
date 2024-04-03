@@ -15,6 +15,7 @@
         <module>spring_framework_example</module>
         <module>spring_scheduling_example</module>
         <module>spring_kafka_example</module>
+        <module>spring_jdbc_example</module>
     </modules>
 
     <properties>
